@@ -10,6 +10,7 @@ RUN gem install bundler
 COPY Gemfile Gemfile.lock /
 RUN bundle install
 COPY . ./
+RUN bundle exec rake assets:precompile
 
 EXPOSE 80
 
