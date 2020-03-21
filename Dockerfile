@@ -1,6 +1,7 @@
 FROM ruby:2.4.3
 
 RUN apt update && apt upgrade -yy
+RUN apt install nodejs
 WORKDIR /app
 ARG RAILS_ENV=production
 ENV RAILS_ENV ${RAILS_ENV}
