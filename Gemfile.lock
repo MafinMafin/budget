@@ -178,7 +178,7 @@ GEM
     rails-assets-adminlte (2.3.11)
     rails-assets-bootstrap (3.1.1)
       rails-assets-jquery (>= 1.9.0)
-    rails-assets-bootstrap-daterangepicker (2.1.27)
+    rails-assets-bootstrap-daterangepicker (3.0.5)
       rails-assets-jquery (>= 1.9.1, < 4)
       rails-assets-moment (>= 2.9.0)
     rails-assets-bootstrap-tokenfield (0.12.1)
