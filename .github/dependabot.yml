@@ -1,0 +1,14 @@
+version: 2
+updates:
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: capistrano
+    versions:
+    - 3.15.0
+  - dependency-name: ffi
+    versions:
+    - 1.14.2
