@@ -15,7 +15,7 @@ gem 'jquery-rails'
 gem 'kaminari'
 gem 'pg', '~> 0.18'
 gem 'pg_search'
-gem 'puma', '~> 3.0'
+gem 'puma', '~> 4.3'
 gem 'rails'
 gem 'sass-rails'
 gem 'sdoc', '~> 0.4.0', group: :doc
